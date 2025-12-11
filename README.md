@@ -27,34 +27,35 @@ yarn add react-droplet
 
 ## How to use it?
 
+```tsx
 import React from "react";
 import Droplet from "react-droplet";
 import "react-droplet/dist/styles.css"; // optional if your bundler supports CSS imports
 
 function App() {
-const handleUpload = (files: File[]) => {
-console.log("Uploaded files:", files);
-};
+  const handleUpload = (files: File[]) => {
+    console.log("Uploaded files:", files);
+  };
 
-const handleInvalidFiles = ({ error, invalidFiles }: any) => {
-console.error(error, invalidFiles);
-};
+  const handleInvalidFiles = ({ error, invalidFiles }: any) => {
+    console.error(error, invalidFiles);
+  };
 
-return (
-
-<div>
-<h1>React Droplet Demo</h1>
-<Droplet
+  return (
+    <div>
+      <h1>React Droplet Demo</h1>
+      <Droplet
         accept=".jpg,.png,.pdf"
         multiple
         onUploadFiles={handleUpload}
         onInvalidFiles={handleInvalidFiles}
       />
-</div>
-);
+    </div>
+  );
 }
 
 export default App;
+```
 
 ## Props
 
