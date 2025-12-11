@@ -94,7 +94,7 @@ Note: To customize entire droplet, you need to use children property with iconRe
 
 ## Override default styles
 
-You can fully customize the look of your droplet by using the classnames prop to override the built-in CSS classes. Each part of the component — the root droplet, icon, and label — supports three style states: default for normal appearance, onDisabled when disabled, and onDragOver when a file is dragged over the zone. By providing your own class names for these keys, you replace the default styling with your own, allowing seamless integration with Tailwind, Bootstrap, or any CSS setup you prefer.
+You can fully customize the look of your droplet by using the classnames prop to override the built-in CSS classes. Each part of the component - the root droplet, icon, and label - supports three style states: default for normal appearance, onDisabled when disabled, and onDragOver when a file is dragged over the zone. By providing your own class names for these keys, you replace the default styling with your own, allowing seamless integration with Tailwind, Bootstrap, or any CSS setup you prefer.Note: To fully override the default styles of the droplet-especially during the disabled and drag-over states-you may need to use !important in your CSS for certain default styles.
 
 ```tsx
 import Droplet from "react-droplet";
