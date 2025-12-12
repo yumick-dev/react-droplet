@@ -17,6 +17,11 @@ Drop files directly, click to upload, and easily handle validation for accepted 
 
 ---
 
+## 📚 Full Documentation
+
+👉 **View the complete docs here:**  
+https://react-droplet.vercel.app
+
 ## Installation
 
 ```bash
@@ -125,3 +130,8 @@ function App() {
 
 export default App;
 ```
+
+## 📚 Full Documentation
+
+👉 **View the complete docs here:**  
+https://react-droplet.vercel.app
