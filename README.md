@@ -61,7 +61,9 @@ function App() {
 export default App;
 ```
 
-## Props
+## Why is react-droplet so powerful?
+
+It’s built so that developers have complete control over the uploader’s look, feel, and behavior—without needing to write any drag-and-drop logic themselves. With the children prop and low-level handlers, you can fully replace the component’s styles and customize 100% of its UI.
 
 ## Props
 
