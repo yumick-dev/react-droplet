@@ -1,6 +1,7 @@
 {
   "name": "react-droplet",
-  "version": "1.0.0",
+  "version": "0.1.0",
+  "description": "A lightweight, customizable React drag-and-drop file uploader built with TypeScript. Drop files directly, click to upload, and easily handle validation for accepted file types.",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -10,6 +11,15 @@
   "scripts": {
     "build": "tsc && cp src/styles.css dist/"
   },
+  "keywords": [
+    "react",
+    "dropzone",
+    "file-upload",
+    "drag-and-drop",
+    "typescript",
+    "react-component",
+    "uploader"
+  ],
   "peerDependencies": {
     "react": ">=17",
     "react-dom": ">=17"
@@ -18,5 +28,16 @@
     "@types/react": "^19.2.7",
     "react": "^19.2.1",
     "typescript": "^5.9.3"
-  }
+  },
+  "author": "Yumick <yumick.dev@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yumick-dev/react-droplet.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yumick-dev/react-droplet"
+  },
+  "homepage": "https://github.com/yumick-dev/react-droplet#readme"
 }
+
